@@ -1,6 +1,6 @@
 # 🚀 SiKerja
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-badge-id/deploy-status)](https://pekerja.netlify.id)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a3b31d2f-f78b-4f6c-8e28-ba5383171c33/deploy-status)](https://app.netlify.com/projects/pekerja/deploys)
 [![Made with JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)]()
 
 **SiKerja** adalah sebuah *workspace* personal dan wadah eksperimen serbaguna berbasis web. Proyek ini tidak terpaku pada satu fungsi spesifik, melainkan difungsikan sebagai "kanvas" untuk membangun berbagai *mini-tools* atau sistem sederhana yang bertujuan satu: **mempermudah dan mengefisiensikan pekerjaan sehari-hari.**
