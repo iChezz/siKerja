@@ -1,65 +1,25 @@
 # 🚀 SiKerja
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-badge-id/deploy-status)](https://pekerja.netlify.id)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/username/sikerja/graphs/commit-activity)
 [![Made with JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)]()
 
-**SiKerja** adalah sebuah *workspace* personal dan pusat kumpulan *mini-tools* berbasis web yang dirancang khusus untuk eksperimen dan efisiensi kerja. Berawal dari proyek pengisi waktu luang, repositori ini berkembang menjadi *hub* untuk berbagai aplikasi yang mempermudah pencatatan operasional sehari-hari.
+**SiKerja** adalah sebuah *workspace* personal dan wadah eksperimen serbaguna berbasis web. Proyek ini tidak terpaku pada satu fungsi spesifik, melainkan difungsikan sebagai "kanvas" untuk membangun berbagai *mini-tools* atau sistem sederhana yang bertujuan satu: **mempermudah dan mengefisiensikan pekerjaan sehari-hari.**
 
 🌍 **Live Apps:** [pekerja.netlify.id](https://pekerja.netlify.id/)
 
 ---
 
-## 💡 Motivasi Proyek
+## 💡 Tentang Proyek Ini
 
-Proyek ini dibangun dengan prinsip **"Kerja Cerdas, Bukan Hanya Kerja Keras"**. 
-Sistem operasional terkadang membutuhkan alat pencatatan yang cepat dan spesifik. Daripada mengandalkan catatan manual yang rawan hilang atau aplikasi pihak ketiga yang terlalu rumit, SiKerja hadir sebagai wadah eksperimen untuk menciptakan *tools* mandiri yang ringan, mudah diakses, dan langsung menyelesaikan inti permasalahan di lapangan.
+Berawal dari waktu luang (gabut) di sela-sela rutinitas, repositori ini menjadi tempat untuk bereksperimen mengubah ide menjadi solusi praktis. 
 
-## ✨ Fitur & Modul Utama
+Karena sifatnya yang fleksibel, website ini bisa difungsikan untuk apa saja sesuai kebutuhan lapangan saat itu. Entah itu untuk membuat sistem pendataan, kalkulator operasional, atau aplikasi kecil lainnya yang bisa memangkas waktu kerja manual. Intinya: **Kerja lebih cerdas dan efisien.**
 
-Di dalam repositori ini, terdapat beberapa alat yang sudah dan sedang dikembangkan:
+## 🛠️ Apa Saja Isinya?
 
-*   📦 **Stock Opname (SO) Tracker**
-    Sistem pencatatan barang instan yang mendukung multi-satuan (Pack, Pcs, Dus/Box). Dilengkapi dengan fitur pencarian nama barang dan *export* data.
-*   🗂️ **Database Produk & Logistik**
-    Penyimpanan data barang sederhana untuk mengecek ketersediaan dan detail produk dengan cepat.
-*   ⚡ **Offline-First & Local Caching**
-    Sebagian besar alat di sini mengandalkan `LocalStorage` pada *browser*, sehingga data tetap aman tersimpan sementara tanpa perlu koneksi database eksternal yang lambat.
-*   📱 **Mobile-Optimized**
-    Desain antarmuka difokuskan untuk penggunaan di layar *smartphone*, memudahkan pencatatan sambil terus bergerak (mobilitas tinggi).
+Isi dari website ini akan terus berkembang sesuai dengan eksperimen dan kebutuhan pekerjaan. Beberapa contoh *tools* atau fungsi yang ada (atau bisa ditambahkan) di dalamnya:
 
-## 🛠️ Teknologi yang Digunakan
-
-SiKerja dibangun menggunakan *stack* yang ringan dan cepat untuk memfasilitasi pembuatan ide seketika:
-
-*   **HTML5 & CSS3** (Vanilla / Tailwind CSS untuk *styling* cepat)
-*   **Vanilla JavaScript** (ES6+)
-*   **Web Storage API** (LocalStorage) untuk persistensi data klien
-*   **Netlify** untuk *continuous deployment* dan *hosting*
-
-## 🚀 Cara Menjalankan Secara Lokal
-
-Jika ingin mengkloning dan menjalankan proyek ini di perangkatmu sendiri untuk bereksperimen:
-
-1.  **Clone repositori ini:**
-    ```bash
-    git clone [https://github.com/username/sikerja.git](https://github.com/username/sikerja.git)
-    ```
-2.  **Masuk ke direktori proyek:**
-    ```bash
-    cd sikerja
-    ```
-3.  **Jalankan aplikasi:**
-    Tidak perlu *install* dependencies yang rumit. Cukup buka *file* `index.html` (atau modul spesifik yang ingin dites) langsung di *browser* pilihanmu, atau gunakan ekstensi seperti **Live Server** di VS Code.
-
-## 📂 Struktur Direktori
-
-```text
-sikerja/
-├── index.html          # Halaman utama / Hub navigasi
-├── css/                # File styling global
-├── js/                 # Script logika utama
-├── modules/            # Kumpulan aplikasi spesifik
-│   ├── stock-opname/   # Aplikasi SO
-│   └── data-produk/    # Aplikasi pendataan produk
-└── assets/             # Ikon, gambar, dll
+*   🗂️ **Sistem Pendataan Cepat**
+    Pembuatan modul untuk mendata sesuatu secara instan (misalnya: *Stock Opname*, pendataan produk, inventaris, dll).
+*   ⚡ **Alat Bantu Operasional**
+    *Mini-apps* spesifik yang dibuat untuk memecahkan masalah
